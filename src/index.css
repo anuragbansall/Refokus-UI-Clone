@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Santoshi-Variable";
+    src: url(./assets/Satoshi-Variable.ttf);
+}
+
+*{
+    font-family: "Santoshi-Variable";
+}
+
+*::-webkit-scrollbar{
+    width: 5px;
+    background-color: #222222;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #dadada;
+    background-color: #555555;
+    border-radius: 50px;
+}
