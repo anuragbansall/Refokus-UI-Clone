@@ -33,7 +33,7 @@ function Stripes() {
     <div className="w-full max-w-screen-2xl mx-auto flex h-[4rem] mt-16">
         {stripeData.map((item, idx) => (
             <span key={idx} className='grow flex justify-between md:gap-4 items-center border-y border-r border-zinc-700 px-2 md:px-8 last:border-r-0'>
-                <img src={item.url} className='w-[90%]' />
+                <img src={item.url} className='w-[100%]' />
                 <p className='hidden md:inline-block'>{item.number}</p>
             </span>
         ))}

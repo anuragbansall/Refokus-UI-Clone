@@ -6,7 +6,7 @@ import Button from '../Common/Button'
 function NavBar() {
   return (
     <div className='w-full px-10'>
-      <div className='max-w-screen-2xl w-full py-6 mx-auto border-b border-zinc-700 flex items-center justify-between'>
+      <div className='max-w-screen-2xl w-full py-6 mx-auto md:border-b border-zinc-700 flex items-center justify-between'>
         <div className='flex gap-28'>
           <div className='flex items-center gap-4'>
             <img src={logo} className='h-[2rem]' />

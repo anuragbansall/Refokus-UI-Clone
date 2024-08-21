@@ -11,7 +11,7 @@ function Product({title, description, isLiveBtn, isCaseBtn, idx, handlePosition}
           <p className='mb-4 w-[30ch]'>
             {description}
           </p>
-          <div className='flex gap-4'>
+          <div className='flex gap-4 mb-4'>
             {
               isLiveBtn &&<Button text='Live Now' />
             }
